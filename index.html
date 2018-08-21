@@ -1,8 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <meta charset="utf-8" />
+  
   <title>Tribute</title>
+  
+  <link rel="shortcut icon" href="https://static.wixstatic.com/media/df5228_b06e57bae45f4905a7cc22545b13c0c3%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/df5228_b06e57bae45f4905a7cc22545b13c0c3%7Emv2.png" type="image/png"/>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+  <style type="text/css">
+    
+    .img-responsive
+    {
+      width:100%;
+    }
+
+    p
+    {
+      font-family:sans-serif;color:#442565;
+      font-size: 18px;
+     text-align: left;
+    }
+
+    #t1:hover,#t2:hover,#t3:hover,#t4:hover,#t5:hover
+    {
+      opacity: 0.2;
+
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .nav-link:hover {
+      color: #7FCCF7 !important;
+      transition: color 0.4s ease 0s;
+    }
+
+    .active a{
+      color: #7FCCF7 !important;
+    }
+
+  </style>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
   <meta name="description" content="Equity for the community" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,266 +72,571 @@
 
   <!-- build:css /assets/css/app.min.css -->
   <link rel="stylesheet" href="static/libs/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
   <link rel="stylesheet" href="static/assets/css/app.css" type="text/css" />
   <link rel="stylesheet" href="static/assets/css/style.css" type="text/css" />
-
+  <link rel="stylesheet" href="static/assets/css/primary.css" type="text/css" />
+  
+  
   <link rel="stylesheet" href="static/libs/noty/noty.css" type="text/css" />
   <link rel="stylesheet" href="static/libs/noty/theme/relax.css" type="text/css" />
   <!-- endbuild -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+ <script type="text/javascript" src="static/scripts/jquery.js"></script>
+  <script>
+    $(document).ready(function()
+         {
+          $("#bt1").click(function()
+          {
+            $("#frm").hide("5000");
+             $("#frm1").text("Thanks! We'll let you know when Tribute Alpha is ready.");
+
+
+          });
+
+         });
+
+     $(document).ready(function()
+         {
+
+          $("id1").click
+
+         });
+
+  </script>
+
+  <style type="text/css">
+      
+      .container-fluid {
+        padding:0;
+      }
+      .container {
+        padding:0;
+      }
+
+  </style>
+
 </head>
-<body>
+
+<body style="background:#e8e6e6">
 
 
-<header class="white p-3">
-  <nav class="clearfix">
-    <div class="float-left">
-      <a href="/" ><img style="width:2em;margin:1em" src="static/illustrations/logo-mini.png" >Tribute</a>
-    </div>
-    <div class="float-right p-2" style="margin-right:200px">
-      <a class="btn" href="#highlight" >Home</a>
-      <a class="btn" href="#challenge" >Challenge</a>
-      <a class="btn" href="#solution" >Solution</a>
-      <a class="btn" href="#about" >About</a>
-    </div>
-
-  </nav>
-</header>
-
-<section id="highlight" class="p-5 white row" >
-
-  <div class="col-md-6 p-5">
-
-    <h5 >What if organizations cooperated with communities of contributors in
-    a fair and sustainable way?</h5>
-
-    <div class="mt-5">
-      <h1>Meet Tribute.</h1>
-      <h2>Equity for the community.</h2>
-      <p>
-        Tribute helps organizations build and strengthen their network of contributors.
-        We enable them to design and manage a customized reward system based on economic incentives and transparency.
-      </p>
-    </div>
-  </div>
-
-  <div class="col-md-6 p-5">
-    <img class="m-3" style="width:100%" src="static/illustrations/shared-pizza.png" />
-  </div>
-
-</section>
-
-<section id="intro" class="p-5 white" >
-
-    <h4>The Future Of Work</h4>
-    <h2>OPEN NETWORKS FOR SUCCESS</h2>
-
-    <img style="width:100%" src="static/illustrations/overview.jpg" />
-
-    <p>
-      Modern organizations are outgrowing traditional firms by opening up to contributors beyond their corporate framework.<br />
-      Instead of relying on a trained but limited workforce, they are leveraging external crowds to design, build and market their services, making them more efficient, agile and adaptable to change.<br />
-      But as talented individuals increasingly choose to work independently,  the competition for quality services begins to rise.<br />
-    </p>
-
-</section>
 
 
-<section id="challenge" class="container p-5" >
-  <h4>The Challenge</h4>
-  <h2>INCENTIVIZING CONTRIBUTORS LONG-TERM</h2>
+  <!-- Navbar - Start -->
 
-  <p>
-    If organizations want to attract and retain talented individuals they must treat them as first-class citizens.
-    However, currently there are no long-term mechanisms in place to reward these external stakeholders for their effort.
-  </p>
-  <p>
-    Businesses distribute economic value to shareholders, executives and employees,
-     but there is no system to account for the value created by external stakeholders.
-  </p>
-  <img style="width:100%" src="static/illustrations/balance.png" />
-  <p class="text-large">
-    As a result independent contributors often get disappointed, mistrustful, and adverse towards organizations.
-  </p>
-</section>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background:#fff;border-bottom:1px solid;box-shadow: .5px .5px #d9d9d9;">
+      
+        <div class="container">
+
+          <a class="navbar-brand" href="#">
+            
+            <img src="static/illustrations/df5228_8292eedf6d544b86983c2708cf57378e_mv2.webp">
+
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+            <ul class="navbar-nav ml-auto">
+          
+              <li class="nav-item active" style="margin-right:8em">
+                <a class="nav-link" href="#highlight">HOME</a>
+              </li>
+
+               <li class="nav-item" style="margin-right:8em">
+                <a class="nav-link" href="#challenge">CHALLENGE</a>
+              </li>
+
+               <li class="nav-item" style="margin-right:8em">
+                <a class="nav-link" href="#solution">SOLUTION</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+        
+            </ul>
+          
+            
+          </div>
+  
+        </div>
+
+      </nav>
+
+  <!-- Navbar - End -->
 
 
-<section id="solution" class="white p-5" >
+
+
+
+  <!-- Home - Section - Start -->
+
   <div class="container">
-    <h4>The Solution</h4>
-    <h2>BUILD TRUST WITH TRANSPARENCY</h2>
 
-    <p>
-      Tribute helps organizations attract and maintain a strong community of contributors through value accounting and economic incentives.
-      Together with traditional monetary compensation, organizations can use Tribute to create their own contributive tokens in order to reward contributions.
-    </p>
+    <section id="highlight" class="p-5 white row" style="border-bottom: 1px solid grey;height: 900px" >
 
-    <p>
-      Contributive tokens can be used to represent future payments at an early stage of a business,
-      include contributors in decision-making processes, distribute shares of future profits, and more.
-    </p>
+       <div class="col-md-7">
+
+        <h4 style="font-size:32px;text-align:left;font-family: 'Roboto', sans-serif;">What if organizations cooperated with<br> communities of contributors in<br>
+        a fair and sustainable way?</h4>
+
+      </div>
+
+      <div class="row">
+      
+        <div class="mt-5 col-md-4">
+        
+          <h1 style="text-align: left; font-size: 38px; font-weight: bold;">Meet Tribute.</h1>
+          <h2 class="display-4" style="font-size: 41px; text-align:left; font-family: 'Roboto', sans-serif;">Equity for the<br>community.</h2>
+       
+        </div>
+   
+
+        <div class="col-md-8 col-md-offset-3 p-5">
+          
+          <img class="img-responsive"  src="static/illustrations/shared-pizza.png" width="440" height="315"  />
+        
+        </div>
+
+      </div>
+      
+      <p style="font-family:roboto-thin,roboto,sans-serif; color:#442565 !important">
+      
+          Tribute helps organizations build and strengthen their network of contributors.
+          We enable them to design and manage a customized reward system based on economic incentives and transparency.<br/><br/>
+          Do you want to test Tribute Alpha? Please enter your email address below!
+
+      </p>
+        
+      <div class="form" id=frm1>
+        
+        <div class="form-inline" id="frm">
+        
+        <input type="email" name="email" class="form-control" placeholder="Email Address" style="height: 50px;width: 400px;background-color: rgba(232,230,230,1);    border-color: rgba(153,153,151,1);color: rgba(33,61,77,1);border-width: 1px;border-radius:0"  />&nbsp;&nbsp;
+
+        <button class="form-control" style="background-color: rgba(66,224,27,1);height: 50px;width: 70px;color:white;border-radius:0" id="bt1">GO</button>
+        </div>
+
+      </div>
+
+    </section>
+    
   </div>
 
-  <div class="row m-5">
-    <div class="col-md-4 p-5">
-      <img style="width:100%" src="static/illustrations/pay-phone.jpg" />
-      <h5>Mint Your Tokens​</h5>
-      <p>
-        Issuing your own tokens allows you to track the value created by your community and reward individuals for their contributions.
-      </p>
-    </div>
+ 
 
-    <div class="col-md-4 p-5">
-      <img style="width:100%" src="static/illustrations/handshake.jpg" />
-      <h5>Facilitate and Scale Coordination​</h5>
-      <p>
-        Fire up activities offered to your community.
-        Define how to reward them, have them assigned to contributors and approve them once delivered.
-      </p>
-    </div>
+  <div class="container-fluid" style="box-shadow: 0px 3px #c7c7c7;padding:0">
 
-    <div class="col-md-4 p-5">
-      <img style="width:100%" src="static/illustrations/search-people.jpg" />
-      <h5>Find The Right Resources At No Cost​</h5>
-      <p>
-        Tribute is an open, censorship-free and decentralized network.
-        Our match-making services are open for everyone and will always remain free.
-      </p>
-    </div>
+      <section id="intro" class="p-5 white" style="background-image: url(static/illustrations/overview.jpg);background-repeat: no-repeat; background-size: auto 100%; min-height:1000px">
 
-    <div class="col-md-4 p-5">
-      <img style="width:100%" src="static/illustrations/flag.jpg" />
-      <h5>Foster Cooperation And Engagement​</h5>
-      <p>
-        Encourage interpersonal interactions, team cooperation,
-        and a common culture through monetary and reputational incentives.
-      </p>
-    </div>
+        <div class="container">
+          
+          <h4 style="font-size:24px; font-family: 'Roboto', sans-serif;">The Future Of Work</h4>
+          
+          <h2 style="font-weight: bolder; font-size: 36px">OPEN NETWORKS FOR SUCCESS</h2>
 
-    <div class="col-md-4 p-5">
-      <img style="width:100%" src="static/illustrations/pay-chip.jpg" />
-      <h5>Reap the Benefits of Programmable Equity​</h5>
-      <p>
-        Tokens offer many more possibilities than traditional equity.
-        Create customized incentive schemes that meet your contributors' expectations.
-      </p>
-    </div>
+          
+          <div class="sticky-footer" style="text-align: justify;text-justify: inter-word; margin-top:62%">
 
-    <div class="col-md-4 p-5">
-      <img style="width:100%" src="static/illustrations/pay-app.jpg" />
-      <h5>Embed Into Your App​</h5>
-      <p>
-        Developers can use our APIs to embed token-based incentives
-        directly in their app or social media campaigns.
+            <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;">
+              Modern organizations are outgrowing traditional firms by opening up to contributors beyond their corporate framework.
+            </p>
+            
+            <p style="text-align: justify;font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;">
+              Instead of relying on a trained but limited workforce, they are leveraging external crowds to design, build and market their services, making them more efficient, agile and adaptable to change.
+            </p>
+
+            <p style="text-align: justify;font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;">
+              But as talented individuals increasingly choose to work independently,  the competition for quality services begins to rise.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+  </div>
+
+  
+  <!-- Home - Section - End -->
+
+
+
+
+  <div class="container">
+
+
+    <!-- Challenge - Section - Start -->
+
+
+    <section id="challenge" class="p-5 white" style="padding-bottom: 0.5rem !important">
+    
+      <h4 style="font-size:24px; font-family: ' open sans', sans-serif;line-height: 0.8rem;">The Challenge</h4>
+           
+      <h2 style="font-weight: bolder; font-size: 32px; margin-bottom: 1.2em">INCENTIVIZING CONTRIBUTORS LONG-TERM</h2>
+
+      <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+        If organizations want to attract and retain talented individuals they must treat them as first-class citizens.
+        However, currently there are no long-term mechanisms in place to reward these external stakeholders for their effort.
       </p>
-    </div>
+
+      <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+        Businesses distribute economic value to shareholders, executives and employees,
+         but there is no system to account for the value created by external stakeholders.
+      </p>
+
+      <p style="font-size:18px; color:#442565;font-family: 'Roboto', sans-serif;margin-top:2.5em;margin-bottom: 0;float:right;margin-right: 2em;text-align: justify;">
+        As a result independent contributors often get disappointed, mistrustful, and
+      </p> 
+
+      <div>
+      
+        <p style="font-size:18px; color:#442565;font-family: 'Roboto', sans-serif;margin-top:3.8em;position:absolute;margin-left: 23.5em">
+          adverse towards organizations.
+        </p> 
+
+        <img style="width:719px;height:331px" src="static/illustrations/balance.png" style="position:relative;">
+      
+      </div>
+
+      <div style="margin:0 2em">
+        
+        <hr>
+
+      </div>
+
+    </section>
+
+
+    <!-- Challenge - Section - End -->
+
+
+    <!-- Solution - Section - Start -->
+
+
+    <section id="solution" class="p-5 white" style="padding-top:0px !important;">
+
+      <h4 style="font-size:24px; font-family: ' open sans', sans-serif;line-height: 0.8rem;">The Solution</h4>
+           
+      <h2 style="font-weight: bolder; font-size: 32px; margin-bottom: 1.2em">BUILD TRUST WITH TRANSPARENCY</h2>
+
+      <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+        Tribute helps organizations attract and maintain a strong community of contributors through value accounting and economic incentives.
+        Together with traditional monetary compensation, organizations can use Tribute to create their own contributive tokens in order to reward contributions.
+      </p>
+
+      <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;margin-bottom: 3rem">
+        Contributive tokens can be used to represent future payments at an early stage of a business,
+        include contributors in decision-making processes, distribute shares of future profits, and more.
+      </p>
+
+      
+      <div class="row" style="border-top: 1px solid rgba(199, 199, 199, 1);margin: 0 3rem; padding: 2.3rem 0">
+        
+        <div class="col-md-3">
+          <img style="width:100%;height: 100%;float: left;" src="static/illustrations/pay-phone.jpg" />
+        </div>
+
+        <span class="col-md-offset-3 col-md-9" style="float: right;">
+          <h5 style="color: #BADA55;font-size: 24px;font-weight: bolder;text-align: left;" >Mint Your Tokens​</h5>
+          <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+            Issuing your own tokens allows you to track the value created by your community and reward individuals for their contributions.
+          </p>
+        </span>
+
+      </div>
+
+
+        
+      <div class="row" style="border-top: 1px solid rgba(199, 199, 199, 1);margin: 0 3rem; padding: 2.3rem 0">
+        
+        <div class="col-md-9">
+          <h5  style="color: #BADA55;font-size: 24px;font-weight: bolder;text-align: left;">Facilitate and Scale Coordination​</h5>
+          <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+            Fire up activities offered to your community.
+            Define how to reward them, have them assigned to contributors and approve them once delivered.
+          </p>
+        </div>
+
+        <div class="col-md-offset-9 col-md-3">
+          <img style="width:100%;height: 100%" src="static/illustrations/handshake.jpg" />
+        </div>
+
+      </div>
+     
+
+      <div class="row" style="border-top: 1px solid rgba(199, 199, 199, 1);margin: 0 3rem; padding: 2.3rem 0">
+        
+        <div class="col-md-3">
+          <img style="width:100%;height: 100%" src="static/illustrations/search-people.jpg" />
+        </div>
+
+        <div class="col-md-offset-3 col-md-9">
+          <h5  style="color: #BADA55;font-size: 24px;font-weight: bolder;text-align: left;">Find The Right Resources At No Cos</h5>
+          <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+            Tribute is an open, censorship-free and decentralized network.
+            Our match-making services are open for everyone and will always remain free.
+          </p>
+        </div>
+
+      </div>
+        
+      <div class="row" style="border-top: 1px solid rgba(199, 199, 199, 1);margin: 0 3rem; padding: 2.3rem 0">
+
+        <div class=" col-md-9">
+          <h5  style="color: #BADA55;font-size: 24px;font-weight: bolder;text-align: left;">Foster Cooperation And Engagement​</h5>
+          <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+            Encourage interpersonal interactions, team cooperation,
+            and a common culture through monetary and reputational incentives.
+          </p>
+        </div>
+        
+        <div class="col-md-offset-9 col-md-3">
+          <img style="width:100%;height: 100%" src="static/illustrations/flag.jpg" />
+        </div>
+
+      </div>
+      
+      <div class="row" style="border-top: 1px solid rgba(199, 199, 199, 1);margin: 0 3rem; padding: 2.3rem 0">
+          
+        <div class="col-md-3">
+          <img style="width:100%;height: 100%" src="static/illustrations/pay-chip.jpg" />
+        </div>
+
+        <div class="col-md-offset-3 col-md-9">
+          
+          <h5 style="color: #BADA55;font-size: 24px;font-weight: bolder;text-align: left;">Reap the Benefits of Programmable Equity​</h5>
+          
+          <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+            Tokens offer many more possibilities than traditional equity.
+            Create customized incentive schemes that meet your contributors' expectations.
+          </p>
+
+        </div>
+
+      </div>
+       
+
+      <div class="row" style="border-top: 1px solid rgba(199, 199, 199, 1);margin: 0 3rem; padding: 2.3rem 0">
+
+        <div class=" col-md-9">
+          <h5  style="color: #BADA55;font-size: 24px;font-weight: bolder;text-align: left;">Embed Into Your App​</h5>
+          
+          <p style="font-size:18px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align: justify;">
+            Developers can use our APIs to embed token-based incentives
+            directly in their app or social media campaigns.
+          </p>
+
+        </div>
+        
+        <div class="col-md-3 col-md-offset-9">
+          <img style="width:100%;height: 100%" src="static/illustrations/pay-app.jpg" />
+        </div>
+          
+      </div>
+
+    </section>
+
   </div>
 
 
-</section>
+  <div class="container-fluid">
+    
 
+    <section id="who" class="light p-5" style="background-color:#d9f0fd;">
 
-<section id="who" class="light p-5" >
+    <h2 style="font-weight: bolder; font-size: 32px; margin-bottom: 0.5rem; text-align: center;">WHO CAN USE TRIBUTE?</h2>
 
-<div class="container text-center">
-  <img src="static/illustrations/icos-crowdfunding.png" />
-  <img src="static/illustrations/extended-entreprise.png" />
-  <img src="static/illustrations/opesource-projects.png" />
-  <img src="static/illustrations/sharing-economy.png" />
-  <img src="static/illustrations/bootstraping-organisations.png" />
-</div>
-
-</section>
-
-
-<section id="about" class="p-5 white" >
-
-<div class="container">
-  <h4>About us</h4>
-  <h2>A DECENTRALIZED NETWORK BUILT AS A COMMONS</h2>
-
-  <div class="left-topic row m-5">
-    <div class="col-md-4">
-      <img class="" src="static/illustrations/raised-hands.jpg" />
+    <div class="container text-center">
+      <img src="static/illustrations/icos-crowdfunding.png" style="margin: 2rem;width: 254px; height: 253px; object-fit: cover;">
+      <img src="static/illustrations/extended-entreprise.png" style="margin: 2rem;width: 254px; height: 253px; object-fit: cover;">
+      <img src="static/illustrations/opesource-projects.png" style="margin: 2rem;width: 254px; height: 253px; object-fit: cover;">
+      <img src="static/illustrations/sharing-economy.png" style="margin: 2rem;width: 254px; height: 253px; object-fit: cover;">
+      <img src="static/illustrations/bootstraping-organisations.png" style="margin: 2rem;width: 254px; height: 253px; object-fit: cover;">
     </div>
-    <div class="col-md-8">
-      <h5>Open Governance​</h5>
-      <p>
-        Whether core team and contributors building Tribute,
-        organizations using it,
-        advisors guiding it or funding investors,
-        our governance system allows every stakeholder
-        to participate in key decisions that affect the network.
-      </p>
-    </div>
-  </div>
 
-  <div class="left-topic row m-5">
-    <div class="col-md-4">
-      <img src="static/illustrations/growing-seed.jpg" />
-    </div>
-    <div class="col-md-8">
-      <h5>Inclusive Business Model​</h5>
-      <p>
-        To ensure that businesses pay proportionately
-         to the value they receive
-          and that no one is excluded for economic reasons,
-          each organization pays Tribute with their own
-          contributive tokens.
-      </p>
-    </div>
+    </section>
+
+
   </div>
 
 
-  <div class="left-topic row m-5">
-    <div class="col-md-4">
-      <img src="static/illustrations/fruits.jpg" />
-    </div>
-    <div class="col-md-8">
-      <h5>Engineered as a Commons​</h5>
-      <p>
-        Tribute is designed for sharing more value than it captures.
-        The code is open source and most of the profits
-        are re-invested in the network
-        and relevant causes selected by governing stakeholders.
-      </p>
-    </div>
+  <!-- Solution - Section - End -->
+
+
+
+  <!-- About Us - Section - Start -->
+
+  <div class="container">
+    
+    <section id="about" class="p-5 white"  style="padding-bottom: 0.5rem !important">
+
+
+      <h4 style="font-size:24px; font-family: ' open sans', sans-serif;line-height: 0.8rem;">About Us</h4>
+             
+      <h2 style="font-weight: bolder; font-size: 32px; margin-bottom: 1.2em">A DECENTRALIZED NETWORK<br> BUILT AS A COMMONS</h2>
+
+
+      <div class="row">
+        
+        <div class="col-md-4" style="padding:2rem"> 
+          
+          <center>
+          
+            <img src="static/illustrations/raised-hands.jpg" style="margin-bottom: 1rem">
+
+          </center>
+
+          <h2 style="text-align: center;font-weight: bolder; font-size: 23px; margin-bottom: 1.2em">Open<br> Governance​</h2>
+          
+          <p style="font-size:15px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align:center">
+            Whether core team and contributors building Tribute,
+            organizations using it,
+            advisors guiding it or funding investors,
+            our governance system allows every stakeholder
+            to participate in key decisions that affect the network.
+          </p>
+
+        </div>
+
+
+    
+        <div class="col-md-4" style="padding:2rem">
+          
+          <center>
+          
+            <img src="static/illustrations/growing-seed.jpg" style="margin-bottom: 1rem">
+
+          </center>
+
+          <h2 style="text-align: center;font-weight: bolder; font-size: 23px; margin-bottom: 1.2em">Inclusive<br> Business Model​</h2>
+          
+          <p style="font-size:15px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align:center">
+            To ensure that businesses pay proportionately
+             to the value they receive
+              and that no one is excluded for economic reasons,
+              each organization pays Tribute with their own
+              contributive tokens.
+          </p>
+
+        </div>
+    
+
+        <div class="col-md-4" style="padding:2rem">
+          
+          <center>
+          
+            <img src="static/illustrations/fruits.jpg" style="margin-bottom: 1rem">
+
+          </center>
+
+          <h2 style="text-align: center;font-weight: bolder; font-size: 23px; margin-bottom: 1.2em">Engineered<br> as a Commons​​</h2>
+          
+          <p style="font-size:15px; color:#442565; line-height: 1.4em;font-family: 'Roboto', sans-serif;text-align:center">
+            Tribute is designed for sharing more value than it captures.
+            The code is open source and most of the profits
+            are re-invested in the network
+            and relevant causes selected by governing stakeholders.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div style="margin:0 2em">
+        
+        <hr>
+
+      </div>
+
+    </section>
+
+
+    <!-- Challenge - Section - End -->
+
+
+    <!-- Solution - Section - Start -->
+
+
+    <section id="solution" class="p-5 white" style="padding-top:0px !important;">
+    <!-- About Us - Section - End -->
+
+
+    <!-- Team - Section - Start -->
+
+    <section id="highlight" class="p-5 white" style="padding-top:0px !important;">
+      
+      <h2 style="font-weight: bolder; font-size: 32px; margin-bottom: 1.2em">TEAM</h2>
+
+      <div class="row">
+          
+        <div class="col-sm-5 mr-auto">
+            
+          <h4 style="font-weight:100">Founders</h4>
+
+          <img src="static/assets/images/a.png" style="height:130px;width: 130px;margin-right:1rem">
+          <img src="static/assets/images/b.jpg" style="height:130px;width: 130px;margin-right:1rem">
+        
+        </div>
+
+
+
+        <div class="col-sm-7 ml-auto">
+          
+          
+          <h4 style="font-weight:100">Advisors</h4>
+
+          <img src="static/assets/images/c.jpg" style="height:130px;width: 130px;margin-right:1rem">
+          <img src="static/assets/images/d.jpg" style="height:130px;width: 130px;margin-right:1rem">
+          <img src="static/assets/images/e.jpg" style="height:130px;width: 130px;margin-right:1rem">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Team - Section - End -->
+
   </div>
-</div>
 
-</section>
 
-<section id="team" >
+  <!-- Footer - Start -->
 
-  Founders / advisors
+  <footer class="dark p-5">
 
-</section>
+    <section id="footer" class="p-5 dark row">
+    
+      <div class="container">
+        
+        <img src="static/illustrations/logo-mini.png" height="60">
 
-<footer class="dark p-5">
+          <b style="font-weight: bolder; font-size: 28px; margin-left:0.5rem; color: #dedede;">
+          
+            Tribute
+          
+          </b>
 
-  Tribute helps organizations build and strengthen their network of contributors. We enable them to design and manage a customized reward system based on economic incentives and transparency.
+          <br>
 
-  Do you want to test Tribute Alpha? Please enter your email address below!
+          <p style="font-family: 'Roboto', sans-serif; color: #dedede; margin-top: 1rem">Equity for the community.</p>
 
-</footer>
-<!-- build:js scripts/app.min.js -->
-<!-- jQuery -->
-  <script src="static/libs/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap -->
-  <script src="static/libs/popper.js/dist/umd/popper.min.js"></script>
-  <script src="static/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- core -->
-  <script src="static/libs/pace-progress/pace.min.js"></script>
-  <script src="static/libs/pjax/pjax.js"></script>
 
-  <script src="static/scripts/lazyload.config.js"></script>
-  <script src="static/scripts/lazyload.js"></script>
-  <script src="static/scripts/plugin.js"></script>
-  <script src="static/scripts/nav.js"></script>
-  <script src="static/scripts/scrollto.js"></script>
-  <script src="static/scripts/toggleclass.js"></script>
-  <script src="static/scripts/theme.js"></script>
-  <script src="static/scripts/ajax.js"></script>
-  <script src="static/scripts/app.js"></script>
-<!-- endbuild -->
+      </div>
+
+    </section>
+
+  </footer>
+
+  <!-- Footer - End -->
+
 </body>
 </html>

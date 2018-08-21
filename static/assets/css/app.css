@@ -824,7 +824,8 @@ Navbar
 .navbar {
   min-height: 3.5rem;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  line-height: 50px; }
   .navbar .dropdown-menu-right {
     left: auto;
     right: 0; }
@@ -837,14 +838,14 @@ Navbar
   line-height: 1.2; }
 
 .navbar-brand {
-  font-size: 1.125rem;
+  font-size: 1.175rem;
   line-height: 1; }
   .navbar-brand > span {
     margin: 0 0.25rem;
     font-weight: 600; }
   .navbar-brand img,
   .navbar-brand svg {
-    max-height: 2.5rem;
+    max-height: 4.5rem;
     vertical-align: middle;
     font-weight: 600; }
 
